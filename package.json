@@ -1,0 +1,32 @@
+{
+  "name": "data-bite",
+  "version": "1.0.0",
+  "description": "ES6 simplified class for consuming data ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truemedia/data-bite.git"
+  },
+  "keywords": [
+    "data",
+    "consumer",
+    "class",
+    "es6",
+    "kitsu",
+    "promise",
+    "jsonapi"
+  ],
+  "author": "Wade Penistone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truemedia/data-bite/issues"
+  },
+  "homepage": "https://github.com/Truemedia/data-bite#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "kitsu": "^6.4.0"
+  }
+}
