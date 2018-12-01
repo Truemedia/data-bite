@@ -3,10 +3,18 @@ const Kitsu = require('kitsu/node');
 
 module.exports = class Data
 {
-  constructor()
+  constructor(host = null, port = null)
   {
-    this.host = process.env['DATA_HOST'];
-    this.port = process.env['DATA_PORT'];
+    this.host = host || process.env['DATA_HOST'] || defaults.host;
+    this.port = port || process.env['DATA_PORT'] || defaults.port;
+  }
+
+  get defaults()
+  {
+    return {
+      host: 'localhost',
+      port: 1337
+    };
   }
 
   get baseURL()
