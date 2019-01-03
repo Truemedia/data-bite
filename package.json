@@ -27,6 +27,7 @@
   "homepage": "https://github.com/Truemedia/data-bite#readme",
   "dependencies": {
     "dotenv": "^6.1.0",
+    "graphql-request": "^1.8.2",
     "kitsu": "^6.4.0"
   }
 }

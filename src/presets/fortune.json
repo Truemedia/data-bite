@@ -1,0 +1,5 @@
+{
+  "type": "jsonapi",
+  "host": "localhost",
+  "port": "1337"
+}
