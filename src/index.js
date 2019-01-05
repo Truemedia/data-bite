@@ -5,7 +5,7 @@ const presets = require('./presets/presets');
 
 module.exports = class Data
 {
-  constructor(preset = 'gridsome', type = null, host = null, port = null, path = null)
+  constructor(preset = 'gatsby', type = null, host = null, port = null, path = null)
   {
     this.preset = preset;
     let {defaults} = this;

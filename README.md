@@ -1,7 +1,13 @@
 # Data bite
 ES6 simplified class for consuming data from an external service (Either JSONAPI or GraphQL)
 
-Includes several presets for getting up an running quickly with API consumption, including [fortune](http://fortune.js.org/) and [gridsome](https://gridsome.org/)
+Includes several presets for getting up an running quickly with API consumption, including:
+
+- GraphQL
+  - [Gatsby](https://www.gatsbyjs.org/)
+  - [Gridsome](https://gridsome.org/)
+- JSONAPI
+  - [Fortune](http://fortune.js.org/)  
 
 ## Installation
 
