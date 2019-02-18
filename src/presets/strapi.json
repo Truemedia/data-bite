@@ -1,0 +1,7 @@
+{
+  "type": "graphql",
+  "host": "localhost",
+  "port": "1337",
+  "path": "graphql",
+  "target": "CMS"
+}

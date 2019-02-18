@@ -6,6 +6,7 @@ Includes several presets for getting up an running quickly with API consumption,
 - GraphQL
   - [Gatsby](https://www.gatsbyjs.org/)
   - [Gridsome](https://gridsome.org/)
+  - [Strapi](https://strapi.io/)
 - JSONAPI
   - [Fortune](http://fortune.js.org/)  
 

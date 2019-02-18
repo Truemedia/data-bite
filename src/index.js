@@ -9,10 +9,12 @@ module.exports = class Data
   {
     this.preset = preset;
     let {defaults} = this;
-    this.type = type || process.env['DATA_TYPE'] || defaults.type;
-    this.host = host || process.env['DATA_HOST'] || defaults.host;
-    this.port = port || process.env['DATA_PORT'] || defaults.port;
-    this.path = path || process.env['DATA_PATH'] || defaults.path;
+    let {target} = defaults;
+
+    this.type = type || process.env[`${target}_TYPE`] || defaults.type;
+    this.host = host || process.env[`${target}_HOST`] || defaults.host;
+    this.port = port || process.env[`${target}_PORT`] || defaults.port;
+    this.path = path || process.env[`${target}_PATH`] || defaults.path;
   }
 
   get defaults()
