@@ -5,11 +5,10 @@ const presets = require('./presets/presets');
 
 module.exports = class Data
 {
-  constructor(preset = 'gatsby', type = null, host = null, port = null, path = null, system = null)
+  constructor(target = 'DATA', preset = 'gatsby', type = null, host = null, port = null, path = null, system = null)
   {
     this.preset = preset;
     let {defaults} = this;
-    let {target} = defaults;
 
     this.host = host || process.env[`${target}_HOST`] || defaults.host;
     this.path = path || process.env[`${target}_PATH`] || defaults.path;
