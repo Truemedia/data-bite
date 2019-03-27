@@ -1,6 +1,6 @@
 {
   "name": "data-bite",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "ES6 simplified class for consuming data ",
   "main": "src/index.js",
   "scripts": {
