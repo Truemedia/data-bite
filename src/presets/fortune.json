@@ -1,4 +1,5 @@
 {
+  "system": "fortune",
   "type": "jsonapi",
   "host": "localhost",
   "port": "1337",
